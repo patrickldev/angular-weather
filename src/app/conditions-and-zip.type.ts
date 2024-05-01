@@ -1,6 +1,9 @@
-import {CurrentConditions} from './current-conditions/current-conditions.type';
+import { CurrentConditions } from "./current-conditions/current-conditions.type";
 
 export interface ConditionsAndZip {
-    zip: string;
-    data: CurrentConditions;
+  name: string;
+  zip: string;
+  data: CurrentConditions;
+  date: number;
+  contentTemplate: string;
 }

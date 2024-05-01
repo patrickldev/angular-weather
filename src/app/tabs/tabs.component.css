@@ -1,0 +1,32 @@
+.wrapperData {
+  background-color: rgb(246, 245, 245);
+  padding: 4rem;
+}
+
+.wrapperTabs {
+  display: flex;
+}
+
+.tab {
+  background-color: rgb(57, 57, 114);
+  padding: 1rem;
+  /* border-radius: 15px; */
+  color: white;
+  border-right: white solid 1px;
+  font-weight: 600;
+  display: flex;
+  gap: 3rem;
+}
+
+.tab:hover {
+  background-color: rgb(32, 32, 65);
+}
+
+.close {
+  color: white;
+  opacity: 100;
+}
+
+.active {
+  background-color: rgb(32, 32, 65);
+}

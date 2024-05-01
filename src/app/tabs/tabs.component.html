@@ -1,0 +1,51 @@
+@if (arrayData.length>0) {
+
+<div class="wrapperTabs">
+  @for (item of arrayData; track $index) {
+  <div
+    [ngClass]="activeIndex == $index ? 'active' : null"
+    class="tab"
+    (click)="activeIndex = $index"
+  >
+    {{ item[titleTabProp] }}
+    <span (click)="close(item[uniqueKey])" class="close">&times;</span>
+  </div>
+  }
+</div>
+
+<ng-template #weatherTemplate let-test>
+  <h4>Current conditions: {{ test.data.weather[0].main }}</h4>
+  <h4>Temperatures today:</h4>
+  <p>
+    Current {{ test.data.main.temp | number : ".0-0" }} - Max
+    {{ test.data.main.temp_max | number : ".0-0" }} - Min
+    {{ test.data.main.temp_min | number : ".0-0" }}
+  </p>
+  <p>
+    <a [routerLink]="['/forecast', test.zip]"
+      >Show 5-day forecast for {{ test.data.name }}
+    </a>
+  </p>
+  <img />
+</ng-template>
+
+<ng-template #defaultTemplate let-default>
+  This is the default template
+</ng-template>
+
+<div class="wrapperData">
+  <ng-container
+    [ngTemplateOutlet]="
+      arrayData[activeIndex]?.contentTemplate === 'weatherTemplate'
+        ? weatherTemplate
+        : defaultTemplate
+    "
+    [ngTemplateOutletContext]="{
+      $implicit: arrayData[activeIndex]
+    }"
+  ></ng-container>
+</div>
+<div>
+  <img />
+</div>
+}
