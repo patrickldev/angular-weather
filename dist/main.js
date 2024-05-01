@@ -1,6 +1,6 @@
 (self["webpackChunkng_weather"] = self["webpackChunkng_weather"] || []).push([["main"],{
 
-/***/ 6401:
+/***/ 92:
 /*!**********************************!*\
   !*** ./src/app/app.component.ts ***!
   \**********************************/
@@ -11,10 +11,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   AppComponent: () => (/* binding */ AppComponent)
 /* harmony export */ });
-/* harmony import */ var _app_component_html_ngResource__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./app.component.html?ngResource */ 3383);
-/* harmony import */ var _app_component_css_ngResource__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./app.component.css?ngResource */ 6715);
+/* harmony import */ var _app_component_html_ngResource__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./app.component.html?ngResource */ 1584);
+/* harmony import */ var _app_component_css_ngResource__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./app.component.css?ngResource */ 309);
 /* harmony import */ var _app_component_css_ngResource__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_app_component_css_ngResource__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 1699);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 7580);
 var __decorate = undefined && undefined.__decorate || function (decorators, target, key, desc) {
   var c = arguments.length,
     r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc,
@@ -30,7 +30,7 @@ let AppComponent = class AppComponent {
   static #_ = this.ctorParameters = () => [];
 };
 AppComponent = __decorate([(0,_angular_core__WEBPACK_IMPORTED_MODULE_2__.Component)({
-  selector: 'app-root',
+  selector: "app-root",
   template: _app_component_html_ngResource__WEBPACK_IMPORTED_MODULE_0__,
   styles: [(_app_component_css_ngResource__WEBPACK_IMPORTED_MODULE_1___default())]
 })], AppComponent);
@@ -38,7 +38,7 @@ AppComponent = __decorate([(0,_angular_core__WEBPACK_IMPORTED_MODULE_2__.Compone
 
 /***/ }),
 
-/***/ 8629:
+/***/ 635:
 /*!*******************************!*\
   !*** ./src/app/app.module.ts ***!
   \*******************************/
@@ -49,22 +49,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   AppModule: () => (/* binding */ AppModule)
 /* harmony export */ });
-/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/platform-browser */ 6480);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/core */ 1699);
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/forms */ 8849);
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./app.component */ 6401);
-/* harmony import */ var _zipcode_entry_zipcode_entry_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./zipcode-entry/zipcode-entry.component */ 1402);
-/* harmony import */ var _location_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./location.service */ 4056);
-/* harmony import */ var _forecasts_list_forecasts_list_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./forecasts-list/forecasts-list.component */ 64);
-/* harmony import */ var _weather_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./weather.service */ 8986);
-/* harmony import */ var _current_conditions_current_conditions_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./current-conditions/current-conditions.component */ 1217);
-/* harmony import */ var _main_page_main_page_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./main-page/main-page.component */ 1152);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @angular/router */ 7947);
-/* harmony import */ var _app_routing__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./app.routing */ 34);
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @angular/common/http */ 4860);
-/* harmony import */ var _angular_service_worker__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @angular/service-worker */ 1509);
-/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../environments/environment */ 553);
-/* harmony import */ var _tabs_tabs_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./tabs/tabs.component */ 2733);
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/platform-browser */ 436);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/core */ 7580);
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/forms */ 4456);
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./app.component */ 92);
+/* harmony import */ var _zipcode_entry_zipcode_entry_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./zipcode-entry/zipcode-entry.component */ 6744);
+/* harmony import */ var _location_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./location.service */ 3026);
+/* harmony import */ var _forecasts_list_forecasts_list_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./forecasts-list/forecasts-list.component */ 2920);
+/* harmony import */ var _weather_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./weather.service */ 3715);
+/* harmony import */ var _current_conditions_current_conditions_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./current-conditions/current-conditions.component */ 3674);
+/* harmony import */ var _main_page_main_page_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./main-page/main-page.component */ 5168);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @angular/router */ 5072);
+/* harmony import */ var _app_routing__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./app.routing */ 6009);
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @angular/common/http */ 6443);
+/* harmony import */ var _angular_service_worker__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @angular/service-worker */ 6140);
+/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../environments/environment */ 5312);
+/* harmony import */ var _tabs_tabs_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./tabs/tabs.component */ 154);
 var __decorate = undefined && undefined.__decorate || function (decorators, target, key, desc) {
   var c = arguments.length,
     r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc,
@@ -104,7 +104,7 @@ AppModule = __decorate([(0,_angular_core__WEBPACK_IMPORTED_MODULE_10__.NgModule)
 
 /***/ }),
 
-/***/ 34:
+/***/ 6009:
 /*!********************************!*\
   !*** ./src/app/app.routing.ts ***!
   \********************************/
@@ -115,9 +115,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   routing: () => (/* binding */ routing)
 /* harmony export */ });
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ 7947);
-/* harmony import */ var _forecasts_list_forecasts_list_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./forecasts-list/forecasts-list.component */ 64);
-/* harmony import */ var _main_page_main_page_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./main-page/main-page.component */ 1152);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ 5072);
+/* harmony import */ var _forecasts_list_forecasts_list_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./forecasts-list/forecasts-list.component */ 2920);
+/* harmony import */ var _main_page_main_page_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./main-page/main-page.component */ 5168);
 
 
 
@@ -132,7 +132,7 @@ const routing = _angular_router__WEBPACK_IMPORTED_MODULE_2__.RouterModule.forRoo
 
 /***/ }),
 
-/***/ 1217:
+/***/ 3674:
 /*!********************************************************************!*\
   !*** ./src/app/current-conditions/current-conditions.component.ts ***!
   \********************************************************************/
@@ -143,13 +143,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   CurrentConditionsComponent: () => (/* binding */ CurrentConditionsComponent)
 /* harmony export */ });
-/* harmony import */ var _current_conditions_component_html_ngResource__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./current-conditions.component.html?ngResource */ 9139);
-/* harmony import */ var _current_conditions_component_css_ngResource__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./current-conditions.component.css?ngResource */ 2340);
+/* harmony import */ var _current_conditions_component_html_ngResource__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./current-conditions.component.html?ngResource */ 4114);
+/* harmony import */ var _current_conditions_component_css_ngResource__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./current-conditions.component.css?ngResource */ 539);
 /* harmony import */ var _current_conditions_component_css_ngResource__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_current_conditions_component_css_ngResource__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/core */ 1699);
-/* harmony import */ var _weather_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../weather.service */ 8986);
-/* harmony import */ var _location_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../location.service */ 4056);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ 7947);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/core */ 7580);
+/* harmony import */ var _weather_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../weather.service */ 3715);
+/* harmony import */ var _location_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../location.service */ 3026);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ 5072);
 var __decorate = undefined && undefined.__decorate || function (decorators, target, key, desc) {
   var c = arguments.length,
     r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc,
@@ -185,7 +185,7 @@ CurrentConditionsComponent = __decorate([(0,_angular_core__WEBPACK_IMPORTED_MODU
 
 /***/ }),
 
-/***/ 64:
+/***/ 2920:
 /*!************************************************************!*\
   !*** ./src/app/forecasts-list/forecasts-list.component.ts ***!
   \************************************************************/
@@ -196,13 +196,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   ForecastsListComponent: () => (/* binding */ ForecastsListComponent)
 /* harmony export */ });
-/* harmony import */ var _forecasts_list_component_html_ngResource__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./forecasts-list.component.html?ngResource */ 4517);
-/* harmony import */ var _forecasts_list_component_css_ngResource__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./forecasts-list.component.css?ngResource */ 7854);
+/* harmony import */ var _forecasts_list_component_html_ngResource__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./forecasts-list.component.html?ngResource */ 8784);
+/* harmony import */ var _forecasts_list_component_css_ngResource__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./forecasts-list.component.css?ngResource */ 9497);
 /* harmony import */ var _forecasts_list_component_css_ngResource__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_forecasts_list_component_css_ngResource__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/core */ 1699);
-/* harmony import */ var _weather_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../weather.service */ 8986);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ 7947);
-/* harmony import */ var app_location_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! app/location.service */ 4056);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/core */ 7580);
+/* harmony import */ var _weather_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../weather.service */ 3715);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ 5072);
+/* harmony import */ var app_location_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! app/location.service */ 3026);
 var __decorate = undefined && undefined.__decorate || function (decorators, target, key, desc) {
   var c = arguments.length,
     r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc,
@@ -256,7 +256,7 @@ ForecastsListComponent = __decorate([(0,_angular_core__WEBPACK_IMPORTED_MODULE_5
 
 /***/ }),
 
-/***/ 4056:
+/***/ 3026:
 /*!*************************************!*\
   !*** ./src/app/location.service.ts ***!
   \*************************************/
@@ -269,7 +269,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   LOCATIONS: () => (/* binding */ LOCATIONS),
 /* harmony export */   LocationService: () => (/* binding */ LocationService)
 /* harmony export */ });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 1699);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 7580);
 var __decorate = undefined && undefined.__decorate || function (decorators, target, key, desc) {
   var c = arguments.length,
     r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc,
@@ -363,7 +363,7 @@ LocationService = __decorate([(0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.Inje
 
 /***/ }),
 
-/***/ 1152:
+/***/ 5168:
 /*!**************************************************!*\
   !*** ./src/app/main-page/main-page.component.ts ***!
   \**************************************************/
@@ -374,8 +374,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   MainPageComponent: () => (/* binding */ MainPageComponent)
 /* harmony export */ });
-/* harmony import */ var _main_page_component_html_ngResource__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./main-page.component.html?ngResource */ 8132);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 1699);
+/* harmony import */ var _main_page_component_html_ngResource__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./main-page.component.html?ngResource */ 4000);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 7580);
 var __decorate = undefined && undefined.__decorate || function (decorators, target, key, desc) {
   var c = arguments.length,
     r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc,
@@ -394,7 +394,7 @@ MainPageComponent = __decorate([(0,_angular_core__WEBPACK_IMPORTED_MODULE_1__.Co
 
 /***/ }),
 
-/***/ 2733:
+/***/ 154:
 /*!****************************************!*\
   !*** ./src/app/tabs/tabs.component.ts ***!
   \****************************************/
@@ -405,12 +405,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   TabsComponent: () => (/* binding */ TabsComponent)
 /* harmony export */ });
-/* harmony import */ var _tabs_component_html_ngResource__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./tabs.component.html?ngResource */ 4872);
-/* harmony import */ var _tabs_component_css_ngResource__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./tabs.component.css?ngResource */ 9626);
+/* harmony import */ var _tabs_component_html_ngResource__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./tabs.component.html?ngResource */ 1554);
+/* harmony import */ var _tabs_component_css_ngResource__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./tabs.component.css?ngResource */ 4371);
 /* harmony import */ var _tabs_component_css_ngResource__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_tabs_component_css_ngResource__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ 6575);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 1699);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ 7947);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ 316);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 7580);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ 5072);
 var __decorate = undefined && undefined.__decorate || function (decorators, target, key, desc) {
   var c = arguments.length,
     r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc,
@@ -465,7 +465,7 @@ TabsComponent = __decorate([(0,_angular_core__WEBPACK_IMPORTED_MODULE_2__.Compon
 
 /***/ }),
 
-/***/ 8986:
+/***/ 3715:
 /*!************************************!*\
   !*** ./src/app/weather.service.ts ***!
   \************************************/
@@ -476,8 +476,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   WeatherService: () => (/* binding */ WeatherService)
 /* harmony export */ });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 1699);
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/common/http */ 4860);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 7580);
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/common/http */ 6443);
 var __decorate = undefined && undefined.__decorate || function (decorators, target, key, desc) {
   var c = arguments.length,
     r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc,
@@ -516,7 +516,7 @@ WeatherService = WeatherService_1 = __decorate([(0,_angular_core__WEBPACK_IMPORT
 
 /***/ }),
 
-/***/ 1402:
+/***/ 6744:
 /*!**********************************************************!*\
   !*** ./src/app/zipcode-entry/zipcode-entry.component.ts ***!
   \**********************************************************/
@@ -527,10 +527,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   ZipcodeEntryComponent: () => (/* binding */ ZipcodeEntryComponent)
 /* harmony export */ });
-/* harmony import */ var _zipcode_entry_component_html_ngResource__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./zipcode-entry.component.html?ngResource */ 7606);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ 1699);
-/* harmony import */ var _location_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../location.service */ 4056);
-/* harmony import */ var app_weather_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! app/weather.service */ 8986);
+/* harmony import */ var _zipcode_entry_component_html_ngResource__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./zipcode-entry.component.html?ngResource */ 9203);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ 7580);
+/* harmony import */ var _location_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../location.service */ 3026);
+/* harmony import */ var app_weather_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! app/weather.service */ 3715);
 var __decorate = undefined && undefined.__decorate || function (decorators, target, key, desc) {
   var c = arguments.length,
     r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc,
@@ -571,7 +571,7 @@ ZipcodeEntryComponent = __decorate([(0,_angular_core__WEBPACK_IMPORTED_MODULE_3_
 
 /***/ }),
 
-/***/ 553:
+/***/ 5312:
 /*!*****************************************!*\
   !*** ./src/environments/environment.ts ***!
   \*****************************************/
@@ -592,7 +592,7 @@ const environment = {
 
 /***/ }),
 
-/***/ 4913:
+/***/ 4429:
 /*!*********************!*\
   !*** ./src/main.ts ***!
   \*********************/
@@ -600,10 +600,10 @@ const environment = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 1699);
-/* harmony import */ var _angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/platform-browser-dynamic */ 4737);
-/* harmony import */ var _app_app_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./app/app.module */ 8629);
-/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./environments/environment */ 553);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 7580);
+/* harmony import */ var _angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/platform-browser-dynamic */ 2476);
+/* harmony import */ var _app_app_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./app/app.module */ 635);
+/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./environments/environment */ 5312);
 
 
 
@@ -615,15 +615,15 @@ if (_environments_environment__WEBPACK_IMPORTED_MODULE_1__.environment.productio
 
 /***/ }),
 
-/***/ 6715:
+/***/ 309:
 /*!**********************************************!*\
   !*** ./src/app/app.component.css?ngResource ***!
   \**********************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 // Imports
-var ___CSS_LOADER_API_SOURCEMAP_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/sourceMaps.js */ 2487);
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ 1386);
+var ___CSS_LOADER_API_SOURCEMAP_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/sourceMaps.js */ 3142);
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ 5950);
 var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(___CSS_LOADER_API_SOURCEMAP_IMPORT___);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, ``, "",{"version":3,"sources":[],"names":[],"mappings":"","sourceRoot":""}]);
@@ -633,15 +633,15 @@ module.exports = ___CSS_LOADER_EXPORT___.toString();
 
 /***/ }),
 
-/***/ 2340:
+/***/ 539:
 /*!********************************************************************************!*\
   !*** ./src/app/current-conditions/current-conditions.component.css?ngResource ***!
   \********************************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 // Imports
-var ___CSS_LOADER_API_SOURCEMAP_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/sourceMaps.js */ 2487);
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ 1386);
+var ___CSS_LOADER_API_SOURCEMAP_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/sourceMaps.js */ 3142);
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ 5950);
 var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(___CSS_LOADER_API_SOURCEMAP_IMPORT___);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `.close {
@@ -658,15 +658,15 @@ module.exports = ___CSS_LOADER_EXPORT___.toString();
 
 /***/ }),
 
-/***/ 7854:
+/***/ 9497:
 /*!************************************************************************!*\
   !*** ./src/app/forecasts-list/forecasts-list.component.css?ngResource ***!
   \************************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 // Imports
-var ___CSS_LOADER_API_SOURCEMAP_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/sourceMaps.js */ 2487);
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ 1386);
+var ___CSS_LOADER_API_SOURCEMAP_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/sourceMaps.js */ 3142);
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ 5950);
 var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(___CSS_LOADER_API_SOURCEMAP_IMPORT___);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `.icon {
@@ -683,15 +683,15 @@ module.exports = ___CSS_LOADER_EXPORT___.toString();
 
 /***/ }),
 
-/***/ 9626:
+/***/ 4371:
 /*!****************************************************!*\
   !*** ./src/app/tabs/tabs.component.css?ngResource ***!
   \****************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 // Imports
-var ___CSS_LOADER_API_SOURCEMAP_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/sourceMaps.js */ 2487);
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ 1386);
+var ___CSS_LOADER_API_SOURCEMAP_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/sourceMaps.js */ 3142);
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ 5950);
 var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(___CSS_LOADER_API_SOURCEMAP_IMPORT___);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `.wrapperData {
@@ -733,7 +733,7 @@ module.exports = ___CSS_LOADER_EXPORT___.toString();
 
 /***/ }),
 
-/***/ 3383:
+/***/ 1584:
 /*!***********************************************!*\
   !*** ./src/app/app.component.html?ngResource ***!
   \***********************************************/
@@ -744,7 +744,7 @@ module.exports = "<router-outlet></router-outlet>\r\n";
 
 /***/ }),
 
-/***/ 9139:
+/***/ 4114:
 /*!*********************************************************************************!*\
   !*** ./src/app/current-conditions/current-conditions.component.html?ngResource ***!
   \*********************************************************************************/
@@ -755,7 +755,7 @@ module.exports = "<!-- <div>\r\n  <div\r\n    *ngFor=\"let location of locationS
 
 /***/ }),
 
-/***/ 4517:
+/***/ 8784:
 /*!*************************************************************************!*\
   !*** ./src/app/forecasts-list/forecasts-list.component.html?ngResource ***!
   \*************************************************************************/
@@ -766,7 +766,7 @@ module.exports = "<div>\r\n  <div class=\"panel panel-default\">\r\n    <div cla
 
 /***/ }),
 
-/***/ 8132:
+/***/ 4000:
 /*!***************************************************************!*\
   !*** ./src/app/main-page/main-page.component.html?ngResource ***!
   \***************************************************************/
@@ -777,7 +777,7 @@ module.exports = "<div class=\"container-fluid\">\r\n\r\n  <app-zipcode-entry> <
 
 /***/ }),
 
-/***/ 4872:
+/***/ 1554:
 /*!*****************************************************!*\
   !*** ./src/app/tabs/tabs.component.html?ngResource ***!
   \*****************************************************/
@@ -788,7 +788,7 @@ module.exports = "@if (arrayData.length>0) {\r\n\r\n<div class=\"wrapperTabs\">\
 
 /***/ }),
 
-/***/ 7606:
+/***/ 9203:
 /*!***********************************************************************!*\
   !*** ./src/app/zipcode-entry/zipcode-entry.component.html?ngResource ***!
   \***********************************************************************/
@@ -802,7 +802,7 @@ module.exports = "<div class=\"well\">\r\n  <h2>Enter a zipcode:</h2>\r\n  <inpu
 },
 /******/ __webpack_require__ => { // webpackRuntimeModules
 /******/ var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-/******/ __webpack_require__.O(0, ["vendor"], () => (__webpack_exec__(4913)));
+/******/ __webpack_require__.O(0, ["vendor"], () => (__webpack_exec__(4429)));
 /******/ var __webpack_exports__ = __webpack_require__.O();
 /******/ }
 ]);
