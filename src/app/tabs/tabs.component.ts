@@ -20,8 +20,8 @@ import { Tab } from "app/models/tab/tab.type";
 export class TabsComponent<T extends Tab> {
   @Input()
   arrayData: T[] = [];
-  @Input() uniqueKey = "";
-  @Input() titleTabProp = "";
+  @Input() uniqueKey: string = "";
+  @Input() titleTabProp: string = "";
   @Output() closeTab = new EventEmitter();
   @Input() descriptionKey: string = "";
   activeIndex: number = 0;
