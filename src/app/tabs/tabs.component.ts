@@ -7,6 +7,7 @@ import {
   Output,
 } from "@angular/core";
 import { RouterLink } from "@angular/router";
+import { Tab } from "app/models/tab/tab.type";
 
 @Component({
   selector: "app-tabs",
@@ -16,16 +17,16 @@ import { RouterLink } from "@angular/router";
   templateUrl: "./tabs.component.html",
   styleUrl: "./tabs.component.css",
 })
-export class TabsComponent {
+export class TabsComponent<T extends Tab> {
   @Input()
-  arrayData: any = [];
+  arrayData: T[] = [];
   @Input() uniqueKey = "";
   @Input() titleTabProp = "";
   @Output() closeTab = new EventEmitter();
   @Input() descriptionKey: string = "";
   activeIndex: number = 0;
 
-  close(uniqueKey: any) {
+  close(uniqueKey: string | number) {
     this.closeTab.emit(uniqueKey);
   }
 }

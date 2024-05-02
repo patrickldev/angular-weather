@@ -1,4 +1,3 @@
-export class Tab {
-  title: string;
+export interface Tab {
   contentTemplate: string;
 }

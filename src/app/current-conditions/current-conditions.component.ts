@@ -17,7 +17,7 @@ export class CurrentConditionsComponent {
     this.router.navigate(["/forecast", zipcode]);
   }
 
-  close(uniqueKey: any) {
-    this.locationService.removeLocation(uniqueKey);
+  close(uniqueKey: string | number) {
+    this.locationService.removeLocation(uniqueKey as string);
   }
 }
