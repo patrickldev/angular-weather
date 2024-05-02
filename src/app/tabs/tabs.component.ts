@@ -5,9 +5,11 @@ import {
   EventEmitter,
   Input,
   Output,
+  inject,
 } from "@angular/core";
 import { RouterLink } from "@angular/router";
 import { Tab } from "app/models/tab/tab.type";
+import { WeatherService } from "app/weather.service";
 
 @Component({
   selector: "app-tabs",
@@ -24,9 +26,13 @@ export class TabsComponent<T extends Tab> {
   @Input() titleTabProp: string = "";
   @Output() closeTab = new EventEmitter();
   @Input() descriptionKey: string = "";
+  weatherService = inject(WeatherService);
   activeIndex: number = 0;
 
   close(uniqueKey: string | number) {
+    if (this.activeIndex > 0) {
+      this.activeIndex = this.activeIndex - 1;
+    }
     this.closeTab.emit(uniqueKey);
   }
 }

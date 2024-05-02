@@ -1,4 +1,4 @@
-@if (arrayData.length>0) {
+@if (arrayData?.length>0) {
 
 <div class="wrapperTabs">
   @for (item of arrayData; track $index) {
@@ -26,7 +26,7 @@
       >Show 5-day forecast for {{ test.data.name }}
     </a>
   </p>
-  <img />
+  <img [src]="weatherService.getWeatherIcon(test.data.weather[0].id)" />
 </ng-template>
 
 <ng-template #defaultTemplate let-default>

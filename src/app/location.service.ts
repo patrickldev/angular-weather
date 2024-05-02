@@ -28,8 +28,8 @@ export class LocationService {
     );
 
     this.locationsCached = this.locationsCached.filter((c) => c.zip != zipcode);
-
     this.locationsCached.push(locationToAdd);
+
     localStorage.setItem(LOCATIONS, JSON.stringify(this.locationsCached));
     if (this.currentConditions().filter((c) => c.zip == zipcode).length > 0) {
     } else {
@@ -54,6 +54,10 @@ export class LocationService {
   // RETURN THE CURRENT CONDITION
   getCurrentConditions(): ConditionsAndZip[] {
     return this.currentConditions();
+  }
+
+  setCurrentCondition(conditions: ConditionsAndZip[]): void {
+    this.currentConditions.update(() => conditions);
   }
 
   //CHECK IF CONDITION IS CACHED
@@ -103,6 +107,13 @@ export class LocationService {
       localStorage.setItem(FORECASTS, JSON.stringify(storage));
     }
   }
+
+  //retrieve Cached element
+
+  getCachedElement(key: string): ConditionsAndZip[] {
+    return JSON.parse(localStorage.getItem(key));
+  }
+
   //CHECK IF FORECAST IS CACHED
   checkIfForecastCached(
     zipcode: string,

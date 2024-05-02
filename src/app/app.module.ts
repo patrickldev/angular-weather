@@ -40,5 +40,14 @@ import { TabsComponent } from "./tabs/tabs.component";
   bootstrap: [AppComponent],
 })
 export class AppModule {
-  constructor() {}
+  locationService = inject(LocationService);
+
+  constructor() {
+    let conditionsCached: ConditionsAndZip[] =
+      this.locationService.getCachedElement("locations");
+    if (conditionsCached) {
+      this.locationService.setCurrentCondition(conditionsCached);
+      this.locationService.locationsCached = conditionsCached;
+    }
+  }
 }
